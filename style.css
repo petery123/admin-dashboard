@@ -6,4 +6,25 @@
 
 .sidebar{
     grid-row: 1 / -1;
+    display: grid;
+    grid-template-rows: auto auto 1fr;
+    gap: 50px;
+}
+
+.sidebar-head{
+    margin-top: 25px;
+}
+
+.dash-element{
+    display: flex;
+}
+
+.dash-element > p{
+    margin: 0;
+}
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
